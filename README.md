@@ -2,7 +2,7 @@
 <img width="1145" height="196" alt="hermesbanner" src="https://i.ibb.co/Xrs7njHT/image.png" />
 
 
-# *☤ W8HermesAgentTermux — Hermes Agent for Android (Termux)*
+# *☤ W8HermesAgentTermuxx — Hermes Agent for Android (Termux)*
 
 ### *Run a Self-Evolving AI Assistant on Your Phone*
 
@@ -14,7 +14,7 @@
 **Transform your Android device into a powerful, learning AI assistant**
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=500&color=9146FF&center=true&vCenter=true&multiline=false&width=520&height=40&lines=W8HermesAgentTermux;%E2%98%A4+Hermes+Agent+for+Android;Self-evolving+AI+in+your+pocket;W8Team+%2F+W8SOJIB" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=500&color=9146FF&center=true&vCenter=true&multiline=false&width=520&height=40&lines=W8HermesAgentTermuxx;%E2%98%A4+Hermes+Agent+for+Android;Self-evolving+AI+in+your+pocket;W8Team+%2F+W8SOJIB" alt="Typing animation" />
 </h3>
 </div>
 
@@ -49,7 +49,7 @@ graph LR
 ### **Copy and paste this command in Termux:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermuxx/main/install.sh | bash
 ```
 
 ## 🛠️ Manual Installation (Recommended)
@@ -59,8 +59,8 @@ pkg install git
 ```
 ```
 # 1. Clone this repository
-git clone https://github.com/W8SOJIB/W8HermesAgentTermux.git
-cd W8HermesAgentTermux
+git clone https://github.com/W8SOJIB/W8HermesAgentTermuxx.git
+cd W8HermesAgentTermuxx
 
 # 2. Make the script executable
 chmod +x install.sh
@@ -116,9 +116,9 @@ proot-distro login ubuntu
 ```
 > If it says `container 'ubuntu' already exists`, just run `proot-distro login ubuntu` — it's already there. ✅
 
-### 7️⃣ Run W8HermesAgentTermux (one command does it all)
+### 7️⃣ Run W8HermesAgentTermuxx (one command does it all)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermuxx/main/install.sh | bash
 ```
 
 ### 8️⃣ Start Hermes
@@ -178,16 +178,16 @@ hermes gateway
 
 ## 🗑️ Uninstall (delete the tool)
 
-Removes everything W8HermesAgentTermux created: the agent, the launcher, the PATH entry, optionally the proot container, then itself.
+Removes everything W8HermesAgentTermuxx created: the agent, the launcher, the PATH entry, optionally the proot container, then itself.
 
 **One command:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermuxx/main/uninstall.sh | bash
 ```
 
 Or, if you cloned the repo:
 ```bash
-cd W8HermesAgentTermux
+cd W8HermesAgentTermuxx
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
@@ -269,7 +269,7 @@ ollama run gemma4:31b-cloud
 
 • Open Source Community - For the countless tools and libraries
 
-• [W8SOJIB](https://github.com/NousResearch/hermes-agent) / **W8Team** — Lead Developer of **W8HermesAgentTermux**
+• [W8SOJIB](https://github.com/NousResearch/hermes-agent) / **W8Team** — Lead Developer of **W8HermesAgentTermuxx**
 
 • You - For using and supporting this project! ❤️
 
