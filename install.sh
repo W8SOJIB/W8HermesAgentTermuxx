@@ -1,14 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #
 # =============================================================
-#   ☤ W8HermesAgentTermux — Hermes Agent Installer (Termux)
-#   Tool:  W8HermesAgentTermux
+#   ☤ W8HermesAgentTermuxx — Hermes Agent Installer (Termux)
+#   Tool:  W8HermesAgentTermuxx
 #   Credit: W8Team / W8SOJIB
-#   Repo:  https://github.com/W8SOJIB/W8HermesAgentTermux
+#   Repo:  https://github.com/W8SOJIB/W8HermesAgentTermuxx
 # =============================================================
 #
 # Usage in Termux:
-#   curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermuxx/main/install.sh | bash
 #
 
 set -euo pipefail
@@ -28,9 +28,9 @@ export TZ=UTC
 : >/dev/tty 2>/dev/null && clear 2>/dev/null || true
 
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${GRN}         ☤ W8HermesAgentTermux INSTALLER ☤"
+echo -e "${GRN}         ☤ W8HermesAgentTermuxx INSTALLER ☤"
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${GRN}       Tool: W8HermesAgentTermux | Credit: W8Team/W8SOJIB"
+echo -e "${GRN}       Tool: W8HermesAgentTermuxx | Credit: W8Team/W8SOJIB"
 echo -e "${CYN}=====================================================${RST}"
 echo ""
 
@@ -231,7 +231,7 @@ fi
 
 echo ""
 echo -e "${CYN}===================================================${RST}"
-echo -e "${GRN}     ✅ W8HermesAgentTermux installed successfully!"
+echo -e "${GRN}     ✅ W8HermesAgentTermuxx installed successfully!"
 echo -e "${CYN}===================================================${RST}"
 echo ""
 
@@ -241,7 +241,7 @@ echo ""
 WRAPPER="$PREFIX/bin/hermes"
 cat > "$WRAPPER" << WRAPPER_EOF
 #!/data/data/com.termux/files/usr/bin/bash
-# W8HermesAgentTermux - Termux-level launcher for Hermes Agent
+# W8HermesAgentTermuxx - Termux-level launcher for Hermes Agent
 exec proot-distro login "$DISTRO" -- bash -lc 'source ~/hermes-agent/venv/bin/activate && exec hermes "\$@"' hermes "\$@"
 WRAPPER_EOF
 chmod +x "$WRAPPER" 2>/dev/null || true
@@ -256,4 +256,4 @@ echo -e "${CYN}   proot-distro login $DISTRO${RST}"
 echo -e "${CYN}   cd hermes-agent && source venv/bin/activate${RST}"
 echo -e "${CYN}   hermes${RST}"
 echo ""
-echo -e "${GRN}💡 Need help? Visit: https://github.com/W8SOJIB/W8HermesAgentTermux${RST}"
+echo -e "${GRN}💡 Need help? Visit: https://github.com/W8SOJIB/W8HermesAgentTermuxx${RST}"
